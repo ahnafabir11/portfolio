@@ -1,8 +1,16 @@
-import { World } from "@/components/ui/globe";
+"use client";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { WavyBackground } from "@/components/ui/wavy-background";
 import { cn } from "@/utils/cn";
+import dynamic from "next/dynamic";
+
+const World = dynamic(
+  () => import("@/components/ui/globe").then((m) => m.World),
+  {
+    ssr: false,
+  }
+);
 
 export default function Contact() {
   const globeConfig = {
