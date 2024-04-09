@@ -77,7 +77,7 @@ export default function Project() {
           Screenshorts
         </h1>
 
-        <div className="relative py-20 h-screenz">
+        <div className="relative py-20 h-screen">
           <LayoutGrid cards={cards} />
         </div>
       </section>
