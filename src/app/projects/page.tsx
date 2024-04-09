@@ -66,7 +66,7 @@ export default function Projects() {
   );
 }
 
-export const products = [
+const products = [
   {
     title: "Moonbeam",
     link: "https://gomoonbeam.com",
