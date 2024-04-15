@@ -7,7 +7,7 @@ export default function CaseStudies() {
       {projects.map(({ slug, title, thumbnail, description }) => (
         <ProjectCard
           key={slug}
-          link={slug}
+          link={`/projects/${slug}`}
           title={title}
           image={thumbnail}
           description={description}
