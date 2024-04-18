@@ -1,6 +1,13 @@
 import ContactForm from "@/app/contact/contact-form";
 import { WavyBackground } from "@/components/ui/wavy-background";
 import ContactGlobe from "./contact-globe";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Contact",
+  description:
+    "Connect with Ahnaf Abir for collaboration opportunities. Reach out via contact form or social media. Let's start a conversation!",
+};
 
 export default function Contact() {
   return (

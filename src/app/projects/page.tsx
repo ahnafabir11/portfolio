@@ -1,6 +1,13 @@
 import { HeroParallax } from "@/components/ui/hero-parallax";
 import { parallaxProjects } from "@/data/projects";
 import CaseStudies from "./case-studies";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Projects",
+  description:
+    "Discover Ahnaf Abir's full-stack projects. Demonstrating frontend and backend expertise. Innovative solutions brought to reality.",
+};
 
 export default function Projects() {
   return (
